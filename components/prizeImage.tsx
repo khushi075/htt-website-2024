@@ -9,7 +9,6 @@ export default function PrizeSection() {
           className="svg-icon"
           height="100"
           preserveAspectRatio="xMidYMid meet"
-          viewBox="0 0 100 100"
           width="100"
           x="0"
           xmlns="http://www.w3.org/2000/svg"
