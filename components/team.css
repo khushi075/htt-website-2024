@@ -1,0 +1,40 @@
+.team_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 30px;
+  margin: 50px auto;
+  background-color: whitesmoke;
+  width: 90%;
+}
+
+.left-column_team {
+  flex: 0 0 40%; /* Take up 60% of the available space */
+  padding-right: 20px;
+  /* background-color: whitesmoke; */
+  /* border-radius: 20px; */
+}
+
+.right-column_team {
+  flex: 0 0 60%; /* Take up 40% of the available space */
+  padding-left: 20px;
+  /* border-radius: 20px; */
+}
+
+.team-description {
+  max-width: 100%; /* Allow the text to take up the full width of the left column */
+  text-align: left;
+}
+.image-container {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px; /* Add border-radius for a rounded look */
+  overflow: hidden; /* Ensure the image does not overflow its container */
+}
+
+.teamImg {
+  height: 400px;
+  width: 600px;
+  border-radius: 20px;
+}
