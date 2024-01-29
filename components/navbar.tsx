@@ -3,7 +3,7 @@ import { Button } from "./ui/button";
 
 export default function Navbar() {
   return (
-    <div className="sticky top-0 flex h-[60px] justify-between items-center">
+    <div className="sticky container top-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
       <div className="text-xl font-medium">HackTheTank 2.0 </div>
       <div className="flex flex-grow justify-center gap-5">
         {["ABOUT", "SPONSORS", "PRICING", "CONTACT"].map((item) => {

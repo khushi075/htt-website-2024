@@ -1,6 +1,6 @@
 export default function Sponsors() {
   return (
-    <div className="container flex items-center  h-screen">
+    <div className=" flex items-center  h-screen">
       <div className="flex flex-col w-full gap-4">
         <div className="text-4xl font-thin ">Sponsors</div>
         GOLD SPONSORS

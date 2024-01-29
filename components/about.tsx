@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 const mono = GeistMono.className;
 export default function About() {
   return (
-    <div className="container py-4">
+    <div className="py-4">
       <div className="flex flex-col gap-2">
         <div className={cn("text-4xl font-thin")}>About</div>
         <div className="text-xl opacity-50 w-1/2">

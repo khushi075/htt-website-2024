@@ -12,14 +12,16 @@ import TeamSection from "@/components/teamSection";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col container justify-between">
+    <main>
       <Navbar />
-      <Hero />
-      <About />
-      <Sponsors />
-      <Prize />
+      <div className="flex min-h-screen flex-col container justify-between">
+        <Hero />
+        <About />
+        <Sponsors />
+        <Prize />
+        <TeamSection />
+      </div>
       <ContactSection />
-      <TeamSection />
     </main>
   );
 }
