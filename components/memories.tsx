@@ -9,28 +9,15 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import htt1 from "./images/htt1.jpeg";
-import htt2 from "./images/htt2.jpeg";
-import htt3 from "./images/htt3.jpeg";
-import htt4 from "./images/htt4.jpeg";
-import htt5 from "./images/htt5.jpeg";
-
-const imageSources = [htt1, htt2, htt3, htt4, htt5];
-
 export function CarouselDemo() {
   return (
-    <Carousel className="w-full max-w-xs">
+    <Carousel className="w-full h-dvh">
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
+          <CarouselItem className="w-full h-full" key={index}>
             <div className="p-1">
               <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <img
-                    src={imageSources[index].src}
-                    alt={`Image ${index + 1}`}
-                  />
-                </CardContent>
+                <CardContent className="flex te items-center justify-center p-6"></CardContent>
               </Card>
             </div>
           </CarouselItem>
