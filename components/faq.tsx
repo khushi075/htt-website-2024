@@ -8,14 +8,14 @@ import {
 export function AccordionDemo() {
   return (
     <>
-      <div className="flex h-screen flex-col items-center justify-center">
-        <div className="text-5xl text-center pb-8">
+      <div className="flex h-screen flex-col w-full items-center justify-center">
+        <div className="md:text-5xl text-3xl text-center pb-8">
           {" "}
           Frequently Asked Questions (FAQs){" "}
         </div>
-        <Accordion type="single" collapsible className="w-full">
+        <Accordion type="single" collapsible className=" w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Who all can participate?</AccordionTrigger>
+            <AccordionTrigger className="text-left">Who all can participate?</AccordionTrigger>
             <AccordionContent>
               Everyone with a passion for innovation and a drive to create is
               invited to participate. Whether you&apos;re a seasoned developer, a
@@ -24,7 +24,7 @@ export function AccordionDemo() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>What should be the team size?</AccordionTrigger>
+            <AccordionTrigger className="text-left">What should be the team size?</AccordionTrigger>
             <AccordionContent>
               Each team must have 3 participants. Additionally, participants do
               not necessarily need to be from the same university, fostering
@@ -32,7 +32,7 @@ export function AccordionDemo() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Is there a registration fee involved?
             </AccordionTrigger>
             <AccordionContent>
@@ -42,7 +42,7 @@ export function AccordionDemo() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               What is the mode of conduct of Hack The Tank 2.0?
             </AccordionTrigger>
             <AccordionContent>
@@ -54,7 +54,7 @@ export function AccordionDemo() {
           </AccordionItem>
 
           <AccordionItem value="item-5">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               Why should I attend Hack The Tank 2.0 ?{" "}
             </AccordionTrigger>
 
@@ -67,7 +67,7 @@ export function AccordionDemo() {
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>
+            <AccordionTrigger className="text-left">
               What is I haven&apos;t been to hackathons before
             </AccordionTrigger>
             <AccordionContent>

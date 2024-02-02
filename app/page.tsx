@@ -15,9 +15,9 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="w-11/12 mx-auto">
+    <main className="md:w-11/12 items-center mx-auto">
       <Navbar />
-      <div className="flex min-h-screen flex-col container justify-between">
+      <div className="flex min-h-screen flex-col container justify-between items-center">
         <Hero />
         <About />
         <CarouselDemo />

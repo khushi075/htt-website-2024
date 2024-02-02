@@ -27,15 +27,15 @@ export default function Hero() {
             azonix.className
           }
         >
-          <div className="text-9xl text-center">Hack</div>
-          <div className="text-9xl flex gap-10 text-center items-center">
+          <div className="md:text-9xl text-7xl text-center">Hack</div>
+          <div className="md:text-9xl text-7xl flex gap-10 text-center items-center">
             <div>The</div>
-            <div className="text-7xl">2.0</div>
+            <div className="md:text-7xl text-5xl">2.0</div>
           </div>
 
-          <div className="text-9xl  text-center">Tank </div>
+          <div className="md:text-9xl text-7xl  text-center">Tank </div>
         </div>
-        <p className={"pl-4 text-4xl text-center  pt-2 " + azonix.className}>
+        <p className={"pl-4 md:text-4xl text-2xl text-center pt-2 " + azonix.className}>
           Dare to dive in
         </p>
         <div className="flex mt-5 items-center justify-center">
