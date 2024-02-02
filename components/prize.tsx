@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 export default function Prize() {
   return (
-    <section className="text-gray-400 body-font">
+    <section className="text-gray-400 body-font" id="prizes">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1">

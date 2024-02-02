@@ -15,7 +15,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main>
+    <main className="w-11/12 mx-auto">
       <Navbar />
       <div className="flex min-h-screen flex-col container justify-between">
         <Hero />
