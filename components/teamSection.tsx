@@ -15,7 +15,7 @@ function TeamSection() {
         />
         <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
-            From GDSC '24
+            From GDSC &apos;24
           </h1>
           <p className="mb-8 leading-relaxed">
             Kickstarter biodiesel roof party wayfarers cold-pressed. Palo santo
