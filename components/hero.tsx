@@ -15,7 +15,7 @@ const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 
 export default function Hero() {
   return (
-    <div className="h-[calc(100dvh-60px)] flex items-center justify-center">
+    <div className="h-[calc(100dvh-60px)] flex items-center justify-center" id="home">
       <img
         src={background.src}
         className="absolute top-0 object-cover h-screen w-screen -z-50"

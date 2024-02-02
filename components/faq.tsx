@@ -18,7 +18,7 @@ export function AccordionDemo() {
             <AccordionTrigger>Who all can participate?</AccordionTrigger>
             <AccordionContent>
               Everyone with a passion for innovation and a drive to create is
-              invited to participate. Whether you're a seasoned developer, a
+              invited to participate. Whether you&apos;re a seasoned developer, a
               creative designer, or a problem-solving enthusiast, join us for an
               exciting journey of collaboration and discovery.
             </AccordionContent>
@@ -59,22 +59,22 @@ export function AccordionDemo() {
             </AccordionTrigger>
 
             <AccordionContent>
-              Hack The Tank 2.0, is India's only Shark Tank-themed hackathon!
+              Hack The Tank 2.0, is India&rsquo;s only Shark Tank-themed hackathon!
               Dive into a unique experience where real-world problems are
-              presented by pitchers from Shark Tank. Don't miss the chance to
+              presented by pitchers from Shark Tank. Don&rsquo;t miss the chance to
               tackle these challenges, showcase your skills, and make a splash
               in the world of innovation and entrepreneurship!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
             <AccordionTrigger>
-              What is I haven't been to hackathons before
+              What is I haven&apos;t been to hackathons before
             </AccordionTrigger>
             <AccordionContent>
               Welcome! No prior hackathon experience is needed. Hack The Tank
               2.0 is open to all levels of expertise. Join us for a supportive
               and collaborative environment, where you can learn, create, and
-              make valuable connections. It's a fantastic opportunity to
+              make valuable connections. It&apos;s a fantastic opportunity to
               kick-start your hackathon journey!
             </AccordionContent>
           </AccordionItem>

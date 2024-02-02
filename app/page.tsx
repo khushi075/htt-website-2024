@@ -20,10 +20,10 @@ export default function Home() {
       <div className="flex min-h-screen flex-col container justify-between">
         <Hero />
         <About />
+        <CarouselDemo />
         <Sponsors />
         <Prize />
         <AccordionDemo />
-        <CarouselDemo />
         <TeamSection />
         <ContactSection />
         <Footer />
