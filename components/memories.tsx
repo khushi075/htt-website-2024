@@ -9,19 +9,50 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
+import htt1 from "@/assets/images/htt1.jpeg";
+import htt2 from "@/assets/images/htt2.jpeg";
+import htt3 from "@/assets/images/htt3.jpeg";
+import htt4 from "@/assets/images/htt4.jpg";
+import htt5 from "@/assets/images/htt5.jpeg";
+
 export function CarouselDemo() {
   return (
-    <Carousel className="w-full h-dvh">
+    <Carousel>
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem className="w-full h-full" key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex te items-center justify-center p-6"></CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
+        <CarouselItem className="w-full  aspect-video">
+          <div className="p-1">
+            <img src={htt1.src} className="w-full rounded" />
+          </div>
+        </CarouselItem>
+        <CarouselItem className="w-full h-full">
+          <div className="p-1">
+            <img src={htt2.src} className="w-full rounded" />
+          </div>
+        </CarouselItem>
+
+        <CarouselItem className="w-full h-full">
+          <div className="p-1">
+            <img src={htt3.src} className="w-full rounded" />
+          </div>
+        </CarouselItem>
+
+        <CarouselItem className="w-full h-full">
+          <div className="p-1">
+            <img
+              src={htt4.src}
+              className="w-full object-cover aspect-video rounded"
+            />
+          </div>
+        </CarouselItem>
+
+        <CarouselItem className="w-full h-full">
+          <div className="p-1">
+            <img
+              src={htt5.src}
+              className="w-full object-cover aspect-video rounded"
+            />
+          </div>
+        </CarouselItem>
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />

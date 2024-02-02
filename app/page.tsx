@@ -13,8 +13,6 @@ import { AccordionDemo } from "@/components/faq";
 import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
 
-import localFont from "next/font/local";
-
 export default function Home() {
   return (
     <main>
@@ -22,14 +20,14 @@ export default function Home() {
       <div className="flex min-h-screen flex-col container justify-between">
         <Hero />
         <About />
-        {/* <Sponsors /> */}
+        <Sponsors />
         <Prize />
         <AccordionDemo />
-        <TeamSection />
         <CarouselDemo />
+        <TeamSection />
+        <ContactSection />
+        <Footer />
       </div>
-
-      <Footer />
     </main>
   );
 }

@@ -18,7 +18,7 @@ export default function Hero() {
     <div className="h-[calc(100dvh-60px)] flex items-center justify-center">
       <img
         src={background.src}
-        className="absolute object-cover h-screen w-screen -z-50"
+        className="absolute top-0 object-cover h-screen w-screen -z-50"
       />
       <div>
         <div
@@ -40,11 +40,11 @@ export default function Hero() {
         </p>
         <div className="flex mt-5 items-center justify-center">
           <div>
-            <Button variant="outline" className="bg-blue-500">
-              <DiscordLogoIcon className="mr-2" />
+            <Button variant="outline" className="bg-blue-500 h-[48px]">
+              <DiscordLogoIcon className="mr-2 " />
               Discord
             </Button>
-            <Button variant="secondary" className="ml-2 bg-[#FF5003] ">
+            <Button variant="secondary" className="ml-2 bg-[#FF5003] h-[48px] ">
               <EnterIcon className="mr-2" />
               Register Now
             </Button>

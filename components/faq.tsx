@@ -7,69 +7,79 @@ import {
 
 export function AccordionDemo() {
   return (
-    <div className="h-screen flex  items-center w-full">
-      <div className="w-full">
-        <div className="text-5xl w-full flex items-center justify-center">
-          Frequently Asked Questions (FAQs)
+    <>
+      <div className="flex h-screen flex-col items-center justify-center">
+        <div className="text-5xl text-center pb-8">
+          {" "}
+          Frequently Asked Questions (FAQs){" "}
         </div>
-        <Accordion type="single" collapsible>
+        <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>Is it accessible?</AccordionTrigger>
+            <AccordionTrigger>Who all can participate?</AccordionTrigger>
             <AccordionContent>
-              Yes. It adheres to the WAI-ARIA design pattern.
+              Everyone with a passion for innovation and a drive to create is
+              invited to participate. Whether you're a seasoned developer, a
+              creative designer, or a problem-solving enthusiast, join us for an
+              exciting journey of collaboration and discovery.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger>Is it styled?</AccordionTrigger>
+            <AccordionTrigger>What should be the team size?</AccordionTrigger>
             <AccordionContent>
-              Yes. It comes with default styles that matches the other
-              components&apos; aesthetic.
+              Each team must have 3 participants. Additionally, participants do
+              not necessarily need to be from the same university, fostering
+              diverse collaboration and expertise.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionTrigger>
+              Is there a registration fee involved?
+            </AccordionTrigger>
             <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
+              No, the hackathon is completely free of cost! We believe in
+              providing an inclusive and accessible platform for all enthusiasts
+              to participate in this exciting event.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-4">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionTrigger>
+              What is the mode of conduct of Hack The Tank 2.0?
+            </AccordionTrigger>
             <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
+              Hack the Tank 2.0 will be conducted offline, offering a unique
+              setting for real-time collaboration, networking opportunities,
+              immediate feedback, a focused environment, and hands-on learning
+              experiences.
             </AccordionContent>
           </AccordionItem>
+
           <AccordionItem value="item-5">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionTrigger>
+              Why should I attend Hack The Tank 2.0 ?{" "}
+            </AccordionTrigger>
+
             <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
+              Hack The Tank 2.0, is India's only Shark Tank-themed hackathon!
+              Dive into a unique experience where real-world problems are
+              presented by pitchers from Shark Tank. Don't miss the chance to
+              tackle these challenges, showcase your skills, and make a splash
+              in the world of innovation and entrepreneurship!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
+            <AccordionTrigger>
+              What is I haven't been to hackathons before
+            </AccordionTrigger>
             <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-7">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
-            </AccordionContent>
-          </AccordionItem>
-          <AccordionItem value="item-8">
-            <AccordionTrigger>Is it animated?</AccordionTrigger>
-            <AccordionContent>
-              Yes. It's animated by default, but you can disable it if you
-              prefer.
+              Welcome! No prior hackathon experience is needed. Hack The Tank
+              2.0 is open to all levels of expertise. Join us for a supportive
+              and collaborative environment, where you can learn, create, and
+              make valuable connections. It's a fantastic opportunity to
+              kick-start your hackathon journey!
             </AccordionContent>
           </AccordionItem>
         </Accordion>
       </div>
-    </div>
+    </>
   );
 }
