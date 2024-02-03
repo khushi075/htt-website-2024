@@ -13,11 +13,12 @@ import { AccordionDemo } from "@/components/faq";
 import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
 
+
 export default function Home() {
   return (
     <main>
       <Navbar />
-      <div className="flex min-h-screen flex-col container justify-between">
+      <div className="flex min-h-screen flex-col container justify-between">          
         <Hero />
         <About />
         <Sponsors />
