@@ -23,9 +23,9 @@ export default function Navbar() {
       <div className={`md:flex flex-grow justify-center gap-5 hidden ${isMenuOpen ? "block" : "hidden"}`}>
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => {
           return (
-            <div key={item} className="cursor-pointer">
+            <a key={item} href={`#${item.toLocaleLowerCase()}`} className="cursor-pointer">
               {item}
-            </div>
+            </a>
           );
         })}
       </div>

@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 const mono = GeistMono.className;
 export default function About() {
   return (
-    <section className="text-gray-400 body-font">
+    <section className="text-gray-400 body-font" id="about">
       <div className=" mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10">
           <img
