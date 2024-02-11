@@ -12,14 +12,16 @@ import TeamSection from "@/components/teamSection";
 import { AccordionDemo } from "@/components/faq";
 import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
+import Stats from "@/components/stats";
 
 
 export default function Home() {
   return (
     <main className="md:w-11/12 items-center mx-auto">
       <Navbar />
-      <div className="flex min-h-screen flex-col container justify-between items-center">
+      <div className="flex min-h-screen flex-col container justify-between items-center scroll-smooth">
         <Hero />
+        <Stats />
         <About />
         <CarouselDemo />
         <Sponsors />
