@@ -39,12 +39,12 @@ export default function Navbar() {
           } overflow-hidden transition-all duration-300 ease-in-out`}
       >
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => (
-          <div key={item} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-lg">
+          <a key={item} href={`#${item.toLocaleLowerCase()}`} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 ">
             {item}
-          </div>
+          </a>
         ))}
         <div className="flex justify-center items-center">
-        <Button variant={"outline"} className="rounded-full text-md py-6 w-full backdrop-blur-lg">
+        <Button variant={"outline"} className="rounded-full text-md py-6 w-full backdrop-blur-sm">
           <DownloadIcon width={20} height={20} className="mr-3"/>
         BROCHURE
         </Button>
