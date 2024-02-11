@@ -33,7 +33,7 @@ export default function ContactSection() {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 EMAIL
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
+              <a className="text-[#FF5003] leading-relaxed">
                 example@email.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -58,7 +58,7 @@ export default function ContactSection() {
               type="text"
               id="name"
               name="name"
-              className="w-full bg-neutral-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-neutral-800 rounded border border-gray-700 focus:border-[#FF5003] focus:ring-2 focus:ring-[#ff4f03e0] text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -69,7 +69,7 @@ export default function ContactSection() {
               type="email"
               id="email"
               name="email"
-              className="w-full bg-neutral-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              className="w-full bg-neutral-800 rounded border border-gray-700 focus:border-[#FF5003] focus:ring-2 focus:ring-[#ff4f03e0] text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
             />
           </div>
           <div className="relative mb-4">
@@ -85,7 +85,7 @@ export default function ContactSection() {
               className="w-full bg-neutral-800 rounded border border-gray-700 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-900 h-32 text-base outline-none text-gray-100 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
             ></textarea>
           </div>
-          <button className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+          <button className="text-white bg-[#FF5003] border-0 py-2 px-6 focus:outline-none hover:bg-[#ff4f03e0] rounded text-lg">
             Button
           </button>
           <p className="text-xs text-gray-400 text-opacity-90 mt-3">
