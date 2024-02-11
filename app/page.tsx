@@ -13,6 +13,7 @@ import { AccordionDemo } from "@/components/faq";
 import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
 
+
 export default function Home() {
   return (
     <main className="md:w-11/12 items-center mx-auto">
