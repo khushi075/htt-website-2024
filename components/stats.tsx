@@ -2,7 +2,7 @@ export default function Stats() {
     return (
         <div className=" body-font">
             {/* <div className="mt-2  bg-[#002347] flex-col -m-2 justify-center items-center w-screen"> */}
-                <p className=" mt-2 text-center py-4 font-medium bg-[#002347] w-screen px-3">
+                <p className="-mt-4 text-center py-4 font-medium bg-[#002347] w-screen px-3">
                     Sink your teeth into innovation at HackTheTank 2.0
                 </p>
                 {/* <div className="flex justify-center items-center font-light">
