@@ -19,20 +19,20 @@ export function CarouselDemo() {
   return (
     <Carousel>
       <CarouselContent>
-        <CarouselItem className="w-full  aspect-video">
+        <CarouselItem className="w-full">
           <div className="p-1">
-            <img src={htt6.src} className="w-full rounded" />
+            <img src={htt6.src} className="w-full aspect-video rounded" />
           </div>
         </CarouselItem>
         <CarouselItem className="w-full h-full">
           <div className="p-1">
-            <img src={htt7.src} className="w-full rounded" />
+            <img src={htt7.src} className="w-full aspect-video rounded" />
           </div>
         </CarouselItem>
 
         <CarouselItem className="w-full h-full">
           <div className="p-1">
-            <img src={htt8.src} className="w-full rounded" />
+            <img src={htt8.src} className="w-full aspect-video rounded" />
           </div>
         </CarouselItem>
 
