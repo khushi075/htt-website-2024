@@ -5,6 +5,8 @@ import {
   TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 
+
+
 export default function Footer() {
   return (
     <footer className="text-gray-400 body-font w-full">
@@ -24,7 +26,7 @@ export default function Footer() {
           </a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a className="text-gray-400">
+          <a className="text-gray-400" href="\">
             <svg
               fill="currentColor"
               strokeLinecap="round"
@@ -36,19 +38,21 @@ export default function Footer() {
               <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
             </svg>
           </a>
-          <a className="ml-3 text-gray-400">
+          <a className="ml-3 text-gray-400" href="\">
             <svg
-              fill="currentColor"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 512 512"
+              className="w-5 h-5"
               strokeLinecap="round"
               strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-5 h-5"
-              viewBox="0 0 24 24"
+              strokeWidth="0"
+              fill="currentColor"
+              stroke="currentColor"
             >
-              <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
             </svg>
           </a>
-          <a className="ml-3 text-gray-400">
+          <a className="ml-3 text-gray-400" href="\">
             <svg
               fill="none"
               stroke="currentColor"
@@ -62,7 +66,7 @@ export default function Footer() {
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
             </svg>
           </a>
-          <a className="ml-3 text-gray-400">
+          <a className="ml-3 text-gray-400" href="\">
             <svg
               fill="currentColor"
               stroke="currentColor"
@@ -77,6 +81,20 @@ export default function Footer() {
                 d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
               ></path>
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
+            </svg>
+          </a>
+          <a className="ml-3 text-gray-400" href="\">
+            <svg
+              fill="currentColor"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="0"
+              className="w-5 h-5"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
             </svg>
           </a>
         </span>
