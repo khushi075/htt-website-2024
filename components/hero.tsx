@@ -12,6 +12,7 @@ import { Button } from "./ui/button";
 import localFont from "next/font/local";
 import background from "@/assets/images/Clip path group.svg";
 import sharks from "@/assets/images/sharks.svg";
+import sharks2 from "@/assets/images/sharks 2.svg";
 import { Parallax,  ParallaxProvider } from "react-scroll-parallax";
 
 const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
@@ -27,7 +28,11 @@ export default function Hero() {
         />
         <img
           src={sharks.src}
-          className="absolute top-20 object-cover h-screen w-screen -z-40"
+          className="absolute lg:top-20 object-cover lg:h-screen lg:w-screen -z-40 hidden lg:block"
+        />
+        <img
+          src={sharks2.src}
+          className="absolute top-50 object-cover h-screen w-full -z-40 lg:hidden"
         />
         <div className="z-10">
           <Parallax speed={5}>
@@ -52,7 +57,7 @@ export default function Hero() {
           </Parallax>
           <div className="flex mt-5 items-center justify-center">
             <div className="z-10">
-              <Button variant="outline" className="bg-blue-500 h-[48px]">
+              <Button variant="outline" className="bg-[#0044D1] h-[48px]">
                 <DiscordLogoIcon className="mr-2 " />
                 Discord
               </Button>

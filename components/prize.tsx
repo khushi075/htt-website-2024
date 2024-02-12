@@ -7,7 +7,7 @@ export default function Prize() {
     <section className="text-gray-400 body-font" id="prizes">
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
-          <h2 className="text-xs text-indigo-400 tracking-widest font-medium title-font mb-1">
+          <h2 className="text-xs text-[#FF5003] tracking-widest font-medium title-font mb-1">
             WIN AWESOME PRICES
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
@@ -29,7 +29,7 @@ export default function Prize() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-indigo-400 inline-flex items-center">
+            <a className="text-[#FF5003] inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -52,7 +52,7 @@ export default function Prize() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-indigo-400 inline-flex items-center">
+            <a className="text-[#FF5003] inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -75,7 +75,7 @@ export default function Prize() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-indigo-400 inline-flex items-center">
+            <a className="text-[#FF5003] inline-flex items-center">
               Learn More
               <svg
                 fill="none"
@@ -98,7 +98,7 @@ export default function Prize() {
               Fingerstache flexitarian street art 8-bit waistcoat. Distillery
               hexagon disrupt edison bulbche.
             </p>
-            <a className="text-indigo-400 inline-flex items-center">
+            <a className="text-[#FF5003] inline-flex items-center">
               Learn More
               <svg
                 fill="none"

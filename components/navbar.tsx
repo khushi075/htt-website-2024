@@ -12,7 +12,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="sticky border rounded-full mt-4 container top-3 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
+    <div className="inline">
+    <div className="sticky border rounded-full mt-4 container top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
       <div className="text-xl font-medium">HackTheTank 2.0</div>
       <div className="md:hidden">
         {/* Hamburger icon to toggle the mobile menu */}
@@ -33,10 +34,11 @@ export default function Navbar() {
         <DownloadIcon className="mr-2" />
         Brochure
       </Button>
+    </div>
       {/* Mobile menu */}
       <div
-        className={`md:hidden container  flex:cols items-center justify-center fixed top-20 left-0 ${isMenuOpen ? "h-screen" : "h-0 opacity-0"
-          } overflow-hidden transition-all duration-300 ease-in-out`}
+        className={`md:hidden container  flex:cols items-center justify-center fixed top-20 -left-1 ${isMenuOpen ? "h-screen" : "h-0 opacity-0"
+          } overflow-hidden transition-all duration-300 ease-in-out z-50`}
       >
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => (
           <a key={item} href={`#${item.toLocaleLowerCase()}`} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 ">
