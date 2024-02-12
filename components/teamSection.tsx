@@ -25,10 +25,10 @@ function TeamSection() {
             Our dynamic team is fueled by a shared commitment to pushing
             boundaries, solving challenges, and creating solutions that redefine
             the future. As we embark on this exciting journey together, we
-            invite you to join us in transforming ideas into reality. Let's
-            code, collaborate, and celebrate innovation at 'Hack the Tank.'
-            Together, we'll make waves in the world of technology and
-            entrepreneurship.
+            invite you to join us in transforming ideas into reality. Let&apos;s
+            code, collaborate, and celebrate innovation at &apos;Hack the
+            Tank.&apos; Together, we&apos;ll make waves in the world of
+            technology and entrepreneurship.
           </p>
         </div>
       </div>

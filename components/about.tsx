@@ -20,16 +20,16 @@ export default function About() {
             HackTheTank 2.0
           </h1>
           <p className="mb-8 leading-relaxed">
-            "Hack the Tank" is a groundbreaking hackathon where the innovation
-            of Shark Tank meets the brilliance of student developers. In this
-            30-hour event, aspiring talents dive into unique problem statements
-            presented by Shark Tank entrepreneurs, spanning diverse domains such
-            as web development, app development, and data analytics. Get ready
-            for a dynamic fusion of creativity and technical prowess as students
-            collaborate, ideate, and deliver cutting-edge solutions that
-            redefine the intersection of technology and entrepreneurship. Join
-            us for an unparalleled experience where the next wave of innovation
-            takes shape in just 30 hours.
+            &quot;Hack the Tank &quot; is a groundbreaking hackathon where the
+            innovation of Shark Tank meets the brilliance of student developers.
+            In this 30-hour event, aspiring talents dive into unique problem
+            statements presented by Shark Tank entrepreneurs, spanning diverse
+            domains such as web development, app development, and data
+            analytics. Get ready for a dynamic fusion of creativity and
+            technical prowess as students collaborate, ideate, and deliver
+            cutting-edge solutions that redefine the intersection of technology
+            and entrepreneurship. Join us for an unparalleled experience where
+            the next wave of innovation takes shape in just 30 hours.
           </p>
         </div>
       </div>
