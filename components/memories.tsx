@@ -9,11 +9,11 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-import htt1 from "@/assets/images/htt1.jpeg";
-import htt2 from "@/assets/images/htt2.jpeg";
-import htt3 from "@/assets/images/htt3.jpeg";
-import htt4 from "@/assets/images/htt4.jpg";
-import htt5 from "@/assets/images/htt5.jpeg";
+import htt6 from "@/assets/images/htt6.jpg";
+import htt7 from "@/assets/images/htt7.jpg";
+import htt8 from "@/assets/images/htt8.jpg";
+import htt9 from "@/assets/images/htt9.jpg";
+import htt10 from "@/assets/images/htt10.jpg";
 
 export function CarouselDemo() {
   return (
@@ -21,25 +21,25 @@ export function CarouselDemo() {
       <CarouselContent>
         <CarouselItem className="w-full  aspect-video">
           <div className="p-1">
-            <img src={htt1.src} className="w-full rounded" />
+            <img src={htt6.src} className="w-full rounded" />
           </div>
         </CarouselItem>
         <CarouselItem className="w-full h-full">
           <div className="p-1">
-            <img src={htt2.src} className="w-full rounded" />
+            <img src={htt7.src} className="w-full rounded" />
           </div>
         </CarouselItem>
 
         <CarouselItem className="w-full h-full">
           <div className="p-1">
-            <img src={htt3.src} className="w-full rounded" />
+            <img src={htt8.src} className="w-full rounded" />
           </div>
         </CarouselItem>
 
         <CarouselItem className="w-full h-full">
           <div className="p-1">
             <img
-              src={htt4.src}
+              src={htt9.src}
               className="w-full object-cover aspect-video rounded"
             />
           </div>
@@ -48,7 +48,7 @@ export function CarouselDemo() {
         <CarouselItem className="w-full h-full">
           <div className="p-1">
             <img
-              src={htt5.src}
+              src={htt10.src}
               className="w-full object-cover aspect-video rounded"
             />
           </div>

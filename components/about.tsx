@@ -20,10 +20,16 @@ export default function About() {
             HackTheTank 2.0
           </h1>
           <p className="mb-8 leading-relaxed">
-            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
-            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
-            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
-            hexagon try-hard chambray.
+            "Hack the Tank" is a groundbreaking hackathon where the innovation
+            of Shark Tank meets the brilliance of student developers. In this
+            30-hour event, aspiring talents dive into unique problem statements
+            presented by Shark Tank entrepreneurs, spanning diverse domains such
+            as web development, app development, and data analytics. Get ready
+            for a dynamic fusion of creativity and technical prowess as students
+            collaborate, ideate, and deliver cutting-edge solutions that
+            redefine the intersection of technology and entrepreneurship. Join
+            us for an unparalleled experience where the next wave of innovation
+            takes shape in just 30 hours.
           </p>
         </div>
       </div>

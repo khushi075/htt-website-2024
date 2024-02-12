@@ -14,10 +14,14 @@ export default function Prize() {
             India&apos;s Only Shark-Tank Themed Hackathon !
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven&apos;t heard of them man bun deep jianbing selfies heirloom prism
-            food truck ugh squid celiac humblebrag.
+            Immerse yourself in an unparalleled hackathon experience with our
+            exclusive Shark Tank event! Five industry leaders, entrepreneurs,
+            and investors will present unique challenges, giving participants a
+            chance to showcase innovative solutions directly to them. Judges
+            will carefully evaluate and award one outstanding team per
+            challenge, providing valuable insights and exclusive prizes. Seize
+            the opportunity to impress industry titans and elevate your project
+            to new heights!
           </p>
         </div>
         <div className="flex flex-wrap">

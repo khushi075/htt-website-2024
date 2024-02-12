@@ -13,12 +13,11 @@ import localFont from "next/font/local";
 import background from "@/assets/images/Clip path group.svg";
 import sharks from "@/assets/images/sharks.svg";
 import sharks2 from "@/assets/images/sharks 2.svg";
-import { Parallax,  ParallaxProvider } from "react-scroll-parallax";
+import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 
 const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 
 export default function Hero() {
-
   return (
     <ParallaxProvider>
       <div className="h-[calc(100dvh-60px)] flex items-center justify-center ">
@@ -51,7 +50,12 @@ export default function Hero() {
             </div>
           </Parallax>
           <Parallax speed={-2}>
-            <p className={"pl-4 md:text-4xl text-2xl text-center pt-2  " + azonix.className}>
+            <p
+              className={
+                "pl-4 md:text-4xl text-2xl text-center pt-2  " +
+                azonix.className
+              }
+            >
               Dare to dive in
             </p>
           </Parallax>
@@ -61,7 +65,10 @@ export default function Hero() {
                 <DiscordLogoIcon className="mr-2 " />
                 Discord
               </Button>
-              <Button variant="secondary" className="ml-2 bg-[#FF5003] h-[48px] ">
+              <Button
+                variant="secondary"
+                className="ml-2 bg-[#FF5003] h-[48px] "
+              >
                 <EnterIcon className="mr-2" />
                 Register Now
               </Button>
