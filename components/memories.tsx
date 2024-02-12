@@ -19,43 +19,52 @@ export function CarouselDemo() {
   return (
     <Carousel>
       <CarouselContent>
-        <CarouselItem className="w-full">
-          <div className="p-1">
-            <img src={htt6.src} className="w-full aspect-video rounded" />
-          </div>
-        </CarouselItem>
-        <CarouselItem className="w-full h-full">
-          <div className="p-1">
-            <img src={htt7.src} className="w-full aspect-video rounded" />
-          </div>
-        </CarouselItem>
-
-        <CarouselItem className="w-full h-full">
-          <div className="p-1">
-            <img src={htt8.src} className="w-full aspect-video rounded" />
-          </div>
-        </CarouselItem>
-
-        <CarouselItem className="w-full h-full">
+        <CarouselItem>
           <div className="p-1">
             <img
-              src={htt9.src}
-              className="w-full object-cover aspect-video rounded"
+              src={htt6.src}
+              className="object-cover aspect-video w-full rounded"
+            />
+          </div>
+        </CarouselItem>
+        <CarouselItem className=" ">
+          <div className="p-1">
+            <img
+              src={htt7.src}
+              className=" object-cover aspect-video w-full rounded"
             />
           </div>
         </CarouselItem>
 
-        <CarouselItem className="w-full h-full">
+        <CarouselItem className=" ">
+          <div className="p-1">
+            <img
+              src={htt8.src}
+              className="object-cover aspect-video h-full rounded"
+            />
+          </div>
+        </CarouselItem>
+
+        <CarouselItem className=" ">
+          <div className="p-1">
+            <img
+              src={htt9.src}
+              className=" object-cover aspect-video w-full rounded"
+            />
+          </div>
+        </CarouselItem>
+
+        <CarouselItem className=" ">
           <div className="p-1">
             <img
               src={htt10.src}
-              className="w-full object-cover aspect-video rounded"
+              className=" object-cover aspect-video w-full rounded"
             />
           </div>
         </CarouselItem>
       </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
+      <CarouselPrevious className="hidden sm:flex" />
+      <CarouselNext className="hidden sm:flex" />
     </Carousel>
   );
 }
