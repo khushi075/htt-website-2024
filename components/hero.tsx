@@ -20,7 +20,7 @@ const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 export default function Hero() {
   return (
     <ParallaxProvider>
-      <div className="h-[calc(100dvh-60px)] flex items-center justify-center ">
+      <div className="h-[calc(100dvh-60px)] w-11/12 mx-auto flex items-center justify-center ">
         <img
           src={background.src}
           className="absolute top-0 object-cover h-screen w-screen -z-50"

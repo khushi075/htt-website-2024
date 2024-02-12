@@ -9,7 +9,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="text-gray-400 body-font w-full">
+    <footer className="text-gray-400 body-font w-11/12 mx-auto">
       <div className=" py-8 mx-auto flex items-center sm:flex-row flex-col">
         <a className="flex title-font font-medium items-center md:justify-start justify-center text-white">
           <span className="ml-3 text-xl">HackTheTank 2.0</span>

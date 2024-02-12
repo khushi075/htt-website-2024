@@ -12,8 +12,8 @@ export default function Navbar() {
   };
 
   return (
-    <div className="inline">
-    <div className="sticky border rounded-full mt-4 container top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
+    <div className="inline ">
+    <div className="sticky border rounded-full mt-4 container w-11/12 mx-auto top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
       <div className="text-xl font-medium">HackTheTank 2.0</div>
       <div className="md:hidden">
         {/* Hamburger icon to toggle the mobile menu */}

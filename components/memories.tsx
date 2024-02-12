@@ -17,7 +17,7 @@ import htt10 from "@/assets/images/htt10.jpg";
 
 export function CarouselDemo() {
   return (
-    <Carousel>
+    <Carousel className=" w-11/12 mx-auto">
       <CarouselContent>
         <CarouselItem>
           <div className="p-1">

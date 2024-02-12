@@ -1,6 +1,6 @@
 export default function Sponsors() {
   return (
-    <section className=" body-font" id="sponsors">
+    <section className=" body-font w-11/12 mx-auto" id="sponsors">
       <div className=" px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">

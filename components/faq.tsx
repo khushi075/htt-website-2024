@@ -8,7 +8,7 @@ import {
 export function AccordionDemo() {
   return (
     <>
-      <div className="flex h-screen flex-col w-full items-center justify-center">
+      <div className="flex h-screen flex-col w-11/12 mx-auto items-center justify-center">
         <div className="md:text-5xl text-3xl text-center pb-8">
           {" "}
           Frequently Asked Questions (FAQs){" "}

@@ -8,7 +8,7 @@ import htt11 from "@/assets/images/htt11.jpg";
 
 function TeamSection() {
   return (
-    <section className=" body-font">
+    <section className=" body-font w-11/12 mx-auto">
       <div className="container mx-auto flex flex-col px-5 py-12 justify-center items-center">
         <img
           className="lg:w-3/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
@@ -20,7 +20,7 @@ function TeamSection() {
           <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium">
             From GDSC &apos;24
           </h1>
-          <p className="mb-8 leading-relaxed">
+          <p className="mb-8 leading-relaxed text-justify">
             Welcome to the heart of innovation, where passion meets expertise!
             Our dynamic team is fueled by a shared commitment to pushing
             boundaries, solving challenges, and creating solutions that redefine
