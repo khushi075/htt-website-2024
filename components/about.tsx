@@ -1,5 +1,6 @@
 import { cn } from "@/lib/utils";
 import { GeistMono } from "geist/font/mono";
+import logo from "@/assets/images/logo-htt.png";
 
 const mono = GeistMono.className;
 export default function About() {
@@ -10,7 +11,7 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="hero"
-            src="https://dummyimage.com/720x600"
+            src={logo.src}
           />
         </div>
         <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
