@@ -25,8 +25,9 @@ export default function ContactSection() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Photo booth tattooed prism, portland taiyaki hoodie neutra
-                typewriter
+              Sardar Vallabhbhai National Institute of Technology, Ichchhanath
+              <br/>Surat-395007
+              <br/>Gujarat
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -48,7 +49,7 @@ export default function ContactSection() {
             Feedback
           </h2>
           <p className="leading-relaxed mb-5">
-            Post-ironic portland shabby chic echo park, banjo fashion axe
+          Help us shape the future! Share your feedback on last year's hackathon experience and pave the way for an even more amazing event this year. 
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -86,12 +87,12 @@ export default function ContactSection() {
             ></textarea>
           </div>
           <button className="text-white bg-[#FF5003] border-0 py-2 px-6 focus:outline-none hover:bg-[#ff4f03e0] rounded text-lg">
-            Button
+            Submit
           </button>
-          <p className="text-xs text-gray-400 text-opacity-90 mt-3">
+          {/* <p className="text-xs text-gray-400 text-opacity-90 mt-3">
             Chicharrones blog helvetica normcore iceland tousled brook viral
             artisan.
-          </p>
+          </p> */}
         </div>
       </div>
     </section>

@@ -68,7 +68,7 @@ export function AccordionDemo() {
           </AccordionItem>
           <AccordionItem value="item-6">
             <AccordionTrigger className="text-left">
-              What is I haven&apos;t been to hackathons before
+              What if I haven&apos;t been to hackathons before?
             </AccordionTrigger>
             <AccordionContent>
               Welcome! No prior hackathon experience is needed. Hack The Tank
