@@ -16,7 +16,7 @@ export default function ContactSection() {
             marginHeight={0}
             marginWidth={0}
             scrolling="no"
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29765.19871847976!2d72.783284!3d21.166329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04dec8b56fdf3%3A0x423b99085d26d1f9!2sSardar%20Vallabhbhai%20National%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1708108252660!5m2!1sen!2sin" width="800" height="600" style="border:0;" loading="lazy"
+            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
             style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
           ></iframe>
           <div className="bg-secondary relative flex flex-wrap py-6 rounded shadow-md">
