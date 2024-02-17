@@ -16,7 +16,7 @@ export default function Prize() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             India&apos;s Only Shark-Tank Themed Hackathon !
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
             Immerse yourself in an unparalleled hackathon experience with our
             exclusive Shark Tank event! Five industry leaders, entrepreneurs,
             and investors will present unique challenges, giving participants a
@@ -121,10 +121,9 @@ export default function Prize() {
             </a>
           </div>
         </div> */}
-        <div className={
-                "md:text-6xl text-4xl text-center  " +
-                azonix.className
-              }>
+        <div
+          className={"md:text-6xl text-4xl text-center  " + azonix.className}
+        >
           Tracks Coming Soon
         </div>
       </div>

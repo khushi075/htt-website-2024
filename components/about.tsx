@@ -20,7 +20,7 @@ export default function About() {
             <br className="hidden lg:inline-block " />
             HackTheTank 2.0
           </h1>
-          <p className="mb-8 leading-relaxed text-justify">
+          <p className="mb-8 leading-relaxed">
             &quot;Hack the Tank &quot; is a groundbreaking hackathon where the
             innovation of Shark Tank meets the brilliance of student developers.
             In this 30-hour event, aspiring talents dive into unique problem

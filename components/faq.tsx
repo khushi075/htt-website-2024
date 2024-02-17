@@ -8,23 +8,27 @@ import {
 export function AccordionDemo() {
   return (
     <>
-      <div className="flex h-screen flex-col w-11/12 mx-auto items-center justify-center">
+      <div className="flex py-24 flex-col w-full mx-auto items-center justify-center">
         <div className="md:text-5xl text-3xl text-center pb-8">
           {" "}
           Frequently Asked Questions (FAQs){" "}
         </div>
         <Accordion type="single" collapsible className=" w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger className="text-left">Who all can participate?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              Who all can participate?
+            </AccordionTrigger>
             <AccordionContent>
               Everyone with a passion for innovation and a drive to create is
-              invited to participate. Whether you&apos;re a seasoned developer, a
-              creative designer, or a problem-solving enthusiast, join us for an
-              exciting journey of collaboration and discovery.
+              invited to participate. Whether you&apos;re a seasoned developer,
+              a creative designer, or a problem-solving enthusiast, join us for
+              an exciting journey of collaboration and discovery.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
-            <AccordionTrigger className="text-left">What should be the team size?</AccordionTrigger>
+            <AccordionTrigger className="text-left">
+              What should be the team size?
+            </AccordionTrigger>
             <AccordionContent>
               Each team must have 3 participants. Additionally, participants do
               not necessarily need to be from the same university, fostering
@@ -59,11 +63,11 @@ export function AccordionDemo() {
             </AccordionTrigger>
 
             <AccordionContent>
-              Hack The Tank 2.0, is India&rsquo;s only Shark Tank-themed hackathon!
-              Dive into a unique experience where real-world problems are
-              presented by pitchers from Shark Tank. Don&rsquo;t miss the chance to
-              tackle these challenges, showcase your skills, and make a splash
-              in the world of innovation and entrepreneurship!
+              Hack The Tank 2.0, is India&rsquo;s only Shark Tank-themed
+              hackathon! Dive into a unique experience where real-world problems
+              are presented by pitchers from Shark Tank. Don&rsquo;t miss the
+              chance to tackle these challenges, showcase your skills, and make
+              a splash in the world of innovation and entrepreneurship!
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-6">
