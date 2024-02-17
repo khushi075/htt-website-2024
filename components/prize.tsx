@@ -1,6 +1,9 @@
 import React from "react";
 import PrizeSection from "./prizeImage";
 import { Button } from "./ui/button";
+import localFont from "next/font/local";
+
+const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 
 export default function Prize() {
   return (
@@ -8,7 +11,7 @@ export default function Prize() {
       <div className="container px-5 py-24 mx-auto">
         <div className="flex flex-col text-center w-full mb-20">
           <h2 className="text-xs text-[#FF5003] tracking-widest font-medium title-font mb-1">
-            WIN AWESOME PRICES
+            WIN AWESOME PRIZES
           </h2>
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             India&apos;s Only Shark-Tank Themed Hackathon !
@@ -24,7 +27,7 @@ export default function Prize() {
             to new heights!
           </p>
         </div>
-        <div className="flex flex-wrap">
+        {/* <div className="flex flex-wrap">
           <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-800">
             <h2 className="text-lg sm:text-xl text-white font-medium title-font mb-2">
               Shooting Stars
@@ -117,6 +120,12 @@ export default function Prize() {
               </svg>
             </a>
           </div>
+        </div> */}
+        <div className={
+                "md:text-6xl text-4xl text-center  " +
+                azonix.className
+              }>
+          Tracks Coming Soon
         </div>
       </div>
     </section>
