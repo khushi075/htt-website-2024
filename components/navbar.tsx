@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { DownloadIcon, HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
+import logo from "@/assets/images/logo-htt.png";
 
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -14,7 +15,17 @@ export default function Navbar() {
   return (
     <div className="inline ">
     <div className="sticky border rounded-full mt-4 container w-11/12 mx-auto top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
-      <div className="text-xl font-medium">HackTheTank 2.0</div>
+      <div className="text-lg font-medium flex items-center justify-center gap-x-2">
+        <img
+            className="object-cover object-center rounded "
+            alt="hero"
+            height={60}
+            width={110}
+            src={logo.src}
+          />
+        <div className="hidden">HackTheTank 2.0</div>
+
+      </div>
       <div className="md:hidden">
         {/* Hamburger icon to toggle the mobile menu */}
         <button onClick={toggleMenu} className="text-xl">
