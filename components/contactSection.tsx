@@ -7,27 +7,17 @@ export default function ContactSection() {
     <section className=" body-font relative w-11/12 mx-auto" id="contact">
       <div className="container px-5 pb-12 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2  rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
-          <iframe
-            width="100%"
-            height="100%"
-            title="map"
-            className="absolute inset-0"
-            frameBorder={0}
-            marginHeight={0}
-            marginWidth={0}
-            scrolling="no"
-            src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
-          ></iframe>
           <div className="bg-secondary relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
-              Sardar Vallabhbhai National Institute of Technology, Ichchhanath
-              <br/>Surat-395007
-              <br/>Gujarat
+                Sardar Vallabhbhai National Institute of Technology, Ichchhanath
+                <br />
+                Surat-395007
+                <br />
+                Gujarat
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
@@ -49,7 +39,8 @@ export default function ContactSection() {
             CONTACT US
           </h2>
           <p className="leading-relaxed mb-5">
-          Got questions or suggestions? Feel free to reach out to us for anything related to HackTheTank!
+            Got questions or suggestions? Feel free to reach out to us for
+            anything related to HackTheTank!
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
