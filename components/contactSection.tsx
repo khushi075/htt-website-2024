@@ -25,12 +25,12 @@ export default function ContactSection() {
                 EMAIL
               </h2>
               <a className="text-[#FF5003] leading-relaxed">
-                example@email.com
+                hackthetank2@gmail.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
+              <p className="leading-relaxed">728-481-4457</p>
             </div>
           </div>
         </div>
