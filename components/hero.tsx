@@ -31,7 +31,7 @@ export default function Hero() {
   }, []);
   return (
     <ParallaxProvider>
-      <div className="h-[calc(100dvh-60px)] w-11/12 mx-auto flex items-center justify-center ">
+      <div className="h-[calc(100dvh-60px)] w-11/12 mx-auto flex items-center justify-center">
         <img
           src={background.src}
           className="absolute top-0 object-cover h-screen w-screen -z-50"
@@ -44,7 +44,7 @@ export default function Hero() {
           src={sharks2.src}
           className="absolute top-50 object-cover h-screen w-full -z-40 lg:hidden"
         />
-        <div className="flex-col items-center justify-center md:flex-row md:flex">
+        <div className="flex-col items-center justify-center md:w-10/12 lg:-ml-14 md:flex-row md:flex">
           <div className="flex justify-center items-center">
             <Parallax speed={5}>
             <div className="md:hidden border border-[#0044D1] rounded-lg backdrop-blur-md py-1 w-max px-2 border-dashed">
@@ -52,7 +52,7 @@ export default function Hero() {
             </div>
             </Parallax>
             </div>
-          <div className="text-center w-80 mt-10 mr-5 self-start text-2xl hidden lg:block ">
+          <div className="text-center w-80 mt-16 mr-5 self-start text-2xl hidden lg:block ">
             <Parallax speed={10}>
               <div className="border border-[#0044D1] px-5 py-3 rounded-xl backdrop-blur-md border-dashed">
                 India&apos;s Only Shark-Tank Themed Hackathon !
