@@ -40,7 +40,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt8.src}
-              className="object-cover aspect-video h-full rounded"
+              className="object-cover aspect-video rounded"
             />
           </div>
         </CarouselItem>

@@ -5,7 +5,7 @@ export default function Sponsors() {
   return (
     <section className=" body-font w-11/12 mx-auto" id="sponsors">
       <div className=" px-5 py-24 mx-auto">
-        <div className="flex flex-col items-center py-4">
+        <div className="flex flex-col items-center py-4 mb-6">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             Silver Sponsors
           </h1>
@@ -24,13 +24,13 @@ export default function Sponsors() {
             Bronze Sponsors
           </h1>
           <div className="flex flex-wrap -m-2 justify-center">
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="p-2 lg:w-1/4 md:w-1/2 w-full">
               <img
                 alt="POLYGON LOGO"
                 src="https://devfolio.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F884e6030-2f25-49bf-b85f-984a4e07a886%2FDark.png?table=block&id=c63d7b2e-475e-4d8f-b52d-6abc014b1fa6&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=870&userId=&cache=v2"
               />
             </div>
-            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+            <div className="p-2 lg:w-1/4 md:w-1/2 w-full">
               <img
                 alt="ETHINDIA LOGO"
                 src="https://devfolio.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F5bc094c8-987c-4274-938f-8a9d3fad1a04%2F3a99e963-fed1-423a-81b2-8e13661c12ef%2FUntitled.png?table=block&id=b43f6ac2-f22d-4513-814d-a841fc5b6079&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=1740&userId=&cache=v2"
