@@ -1,12 +1,22 @@
 import React from "react";
 
-import "./contact.css";
-
 export default function ContactSection() {
   return (
     <section className=" body-font relative w-11/12 mx-auto" id="contact">
       <div className="container px-5 pb-12 mx-auto flex sm:flex-nowrap flex-wrap">
         <div className="lg:w-2/3 md:w-1/2  rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+          <iframe
+            width="100%"
+            height="100%"
+            title="map"
+            className="absolute inset-0"
+            frameBorder={0}
+            marginHeight={0}
+            marginWidth={0}
+            scrolling="no"
+            src="https://maps.google.com/maps?q=svnit%2C+cse&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
+          ></iframe>
           <div className="bg-secondary relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
