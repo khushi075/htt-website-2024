@@ -1,11 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import {
-  DownloadIcon,
-  HamburgerMenuIcon,
-  Cross1Icon,
-} from "@radix-ui/react-icons";
+import { DownloadIcon, HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
 import logo from "@/assets/images/logo-htt.png";
 
@@ -19,7 +15,17 @@ export default function Navbar() {
   return (
     <div className="inline ">
     <div className="sticky border rounded-full mt-4 container w-11/12 mx-auto top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
-      <div className="text-xl font-medium">HackTheTank 2.0</div>
+      <div className="text-lg font-medium flex items-center justify-center gap-x-2">
+        <img
+            className="object-cover object-center rounded "
+            alt="hero"
+            height={60}
+            width={110}
+            src={logo.src}
+          />
+        <div className="hidden">HackTheTank 2.0</div>
+
+      </div>
       <div className="md:hidden">
         {/* Hamburger icon to toggle the mobile menu */}
         <button onClick={toggleMenu} className="text-xl">
@@ -42,27 +48,19 @@ export default function Navbar() {
     </div>
       {/* Mobile menu */}
       <div
-        className={`md:hidden container  flex:cols items-center justify-center fixed top-20 -left-1 ${
-          isMenuOpen ? "h-screen" : "h-0 opacity-0"
-        } overflow-hidden transition-all duration-300 ease-in-out z-50`}
+        className={`md:hidden container  flex:cols items-center justify-center fixed top-20 -left-1 ${isMenuOpen ? "h-screen" : "h-0 opacity-0"
+          } overflow-hidden transition-all duration-300 ease-in-out z-50`}
       >
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => (
-          <a
-            key={item}
-            href={`#${item.toLocaleLowerCase()}`}
-            className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 "
-          >
+          <a key={item} href={`#${item.toLocaleLowerCase()}`} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 ">
             {item}
           </a>
         ))}
         <div className="flex justify-center items-center">
-          <Button
-            variant={"outline"}
-            className="rounded-full text-md py-6 w-full backdrop-blur-sm"
-          >
-            <DownloadIcon width={20} height={20} className="mr-3" />
-            BROCHURE
-          </Button>
+        <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="rounded-full text-md py-6 w-full backdrop-blur-sm">
+          <DownloadIcon width={20} height={20} className="mr-3"/>
+          BROCHURE
+        </a>
         </div>
       </div>
     </div>

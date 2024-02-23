@@ -15,7 +15,7 @@ export default function ContactSection() {
             marginWidth={0}
             scrolling="no"
             src="https://maps.google.com/maps?q=svnit%2C+cse&t=&z=13&ie=UTF8&iwloc=&output=embed"
-            style={{ filter: "grayscale(1) contrast(1.2) opacity(0.16)" }}
+            style={{ filter: "grayscale(0.3) contrast(1.2) opacity(0.4)" }}
           ></iframe>
           <div className="bg-secondary relative flex flex-wrap py-6 rounded shadow-md">
             <div className="lg:w-1/2 px-6">
