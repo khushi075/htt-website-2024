@@ -30,9 +30,9 @@ export function AccordionDemo() {
               What should be the team size?
             </AccordionTrigger>
             <AccordionContent>
-              Each team must have 3 participants. Additionally, participants do
-              not necessarily need to be from the same university, fostering
-              diverse collaboration and expertise.
+              Each team must have at least 2 and at most 3 participants.
+              Additionally, participants do not necessarily need to be from the
+              same university, fostering diverse collaboration and expertise.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-3">
