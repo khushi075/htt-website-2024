@@ -26,19 +26,7 @@ export default function Footer() {
           </a>
         </p>
         <span className="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
-          <a className="text-gray-400" href="\">
-            <svg
-              fill="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              className="w-5 h-5"
-              viewBox="0 0 24 24"
-            >
-              <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
-            </svg>
-          </a>
-          <a className="ml-3 text-gray-400" href="\">
+          <a className="text-gray-400" href="https://x.com/dscnit?s=11">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 512 512"
@@ -52,7 +40,7 @@ export default function Footer() {
               <path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z" />
             </svg>
           </a>
-          <a className="ml-3 text-gray-400" href="\">
+          <a className="ml-3 text-gray-400" href="https://www.instagram.com/dsc_nitsurat/">
             <svg
               fill="none"
               stroke="currentColor"
@@ -66,7 +54,7 @@ export default function Footer() {
               <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
             </svg>
           </a>
-          <a className="ml-3 text-gray-400" href="\">
+          <a className="ml-3 text-gray-400" href="https://www.linkedin.com/company/dsc-nit-surat-powered-by-google-developers/">
             <svg
               fill="currentColor"
               stroke="currentColor"
@@ -83,7 +71,7 @@ export default function Footer() {
               <circle cx="4" cy="4" r="2" stroke="none"></circle>
             </svg>
           </a>
-          <a className="ml-3 text-gray-400" href="\">
+          <a className="ml-3 text-gray-400" href="mailto:hackthetank2@gmail.com">
             <svg
               fill="currentColor"
               stroke="currentColor"

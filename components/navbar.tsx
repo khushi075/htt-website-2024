@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { DownloadIcon, HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
 import logo from "@/assets/images/logo-htt.png";
@@ -10,7 +10,7 @@ export default function Navbar() {
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
-  };
+  }
 
   return (
     <div className="inline ">
@@ -27,11 +27,15 @@ export default function Navbar() {
 
       </div>
       <div className="md:hidden">
-        {/* Hamburger icon to toggle the mobile menu */}
-        <button onClick={toggleMenu} className="text-xl">
-          {isMenuOpen ? <Cross1Icon width={24} height={24} /> : <HamburgerMenuIcon width={24} height={24} />}
-        </button>
-      </div>
+          {/* Hamburger icon to toggle the mobile menu */}
+          <button onClick={toggleMenu} className="text-xl">
+            {isMenuOpen ? (
+              <Cross1Icon width={24} height={24} />
+            ) : (
+              <HamburgerMenuIcon width={24} height={24} />
+            )}
+          </button>
+        </div>
       <div className={`md:flex flex-grow justify-center gap-5 hidden ${isMenuOpen ? "block" : "hidden"}`}>
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => {
           return (
@@ -41,10 +45,12 @@ export default function Navbar() {
           );
         })}
       </div>
-      <Button variant="outline" className="rounded-full hidden md:flex">
-        <DownloadIcon className="mr-2" />
-        Brochure
-      </Button>
+      <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="hidden md:flex">
+        <Button variant="outline" className="rounded-full hidden md:flex">
+          <DownloadIcon className="mr-2" />
+          Brochure
+        </Button>
+      </a>
     </div>
       {/* Mobile menu */}
       <div
@@ -57,9 +63,14 @@ export default function Navbar() {
           </a>
         ))}
         <div className="flex justify-center items-center">
-        <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="rounded-full text-md py-6 w-full backdrop-blur-sm">
-          <DownloadIcon width={20} height={20} className="mr-3"/>
-          BROCHURE
+        <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="w-full backdrop-blur-sm text-center border rounded-full">
+          <Button
+            variant={"outline"}
+            className="rounded-full text-md py-6 w-full"
+          >
+            <DownloadIcon width={20} height={20} className="mr-3" />
+            BROCHURE
+          </Button>
         </a>
         </div>
       </div>
