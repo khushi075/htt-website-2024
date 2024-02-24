@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { DownloadIcon, HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
 import logo from "@/assets/images/logo-htt.png";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -39,18 +40,18 @@ export default function Navbar() {
       <div className={`md:flex flex-grow justify-center gap-5 hidden ${isMenuOpen ? "block" : "hidden"}`}>
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => {
           return (
-            <a key={item} href={`#${item.toLocaleLowerCase()}`} className="cursor-pointer">
+            <Link key={item} href={`#${item.toLocaleLowerCase()}`} className="cursor-pointer">
               {item}
-            </a>
+            </Link>
           );
         })}
       </div>
-      <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="hidden md:flex">
+      <Link href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="hidden md:flex">
         <Button variant="outline" className="rounded-full hidden md:flex">
           <DownloadIcon className="mr-2" />
           Brochure
         </Button>
-      </a>
+      </Link>
     </div>
       {/* Mobile menu */}
       <div
@@ -58,12 +59,12 @@ export default function Navbar() {
           } overflow-hidden transition-all duration-300 ease-in-out z-50`}
       >
         {["ABOUT", "SPONSORS", "PRIZES", "CONTACT"].map((item) => (
-          <a key={item} href={`#${item.toLocaleLowerCase()}`} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 ">
+          <Link key={item} href={`#${item.toLocaleLowerCase()}`} className="py-3 mb-1 border rounded-full cursor-pointer flex justify-center items-center backdrop-blur-sm z-50 ">
             {item}
-          </a>
+          </Link>
         ))}
         <div className="flex justify-center items-center">
-        <a href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="w-full backdrop-blur-sm text-center border rounded-full">
+        <Link href="https://drive.google.com/uc?export=download&id=14mLF3eVDI5EroRx7WLmYhrqowmur7gWa" download="HTT2-Brochure.pdf" className="w-full backdrop-blur-sm text-center border rounded-full">
           <Button
             variant={"outline"}
             className="rounded-full text-md py-6 w-full"
@@ -71,7 +72,7 @@ export default function Navbar() {
             <DownloadIcon width={20} height={20} className="mr-3" />
             BROCHURE
           </Button>
-        </a>
+        </Link>
         </div>
       </div>
     </div>
