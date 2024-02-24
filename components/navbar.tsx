@@ -5,6 +5,7 @@ import { DownloadIcon, HamburgerMenuIcon, Cross1Icon } from "@radix-ui/react-ico
 import { Button } from "./ui/button";
 import logo from "@/assets/images/logo-htt.png";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -17,7 +18,7 @@ export default function Navbar() {
     <div className="inline ">
     <div className="sticky border rounded-full mt-4 container w-11/12 mx-auto top-3 left-0 flex h-[60px] justify-between items-center z-50 backdrop-blur-sm">
       <div className="text-lg font-medium flex items-center justify-center gap-x-2">
-        <img
+        <Image
             className="object-cover object-center rounded "
             alt="hero"
             height={60}

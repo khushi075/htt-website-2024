@@ -23,6 +23,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt6.src}
+              alt="HTT6"
               className="object-cover aspect-video w-full rounded"
             />
           </div>
@@ -31,6 +32,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt7.src}
+              alt="HTT7"
               className=" object-cover aspect-video w-full rounded"
             />
           </div>
@@ -40,6 +42,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt8.src}
+              alt="HTT8"
               className="object-cover aspect-video rounded"
             />
           </div>
@@ -49,6 +52,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt9.src}
+              alt="HTT9"
               className=" object-cover aspect-video w-full rounded"
             />
           </div>
@@ -58,6 +62,7 @@ export function CarouselDemo() {
           <div className="p-1">
             <img
               src={htt10.src}
+              alt="HTT10"
               className=" object-cover aspect-video w-full rounded"
             />
           </div>

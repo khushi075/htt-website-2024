@@ -3,6 +3,7 @@ import { Fragment } from 'react';
 import { GeistSans } from 'geist/font/sans';
 import { ThemeProvider } from '@/components/theme-provider';
 import Head from 'next/head';
+import webImage from "@/public/website.png"
 
 import './globals.css';
 
@@ -16,7 +17,7 @@ export const metadata = {
     siteName: "Hack The Tank 2.0",
     images: [
       {
-        url: "/website.png",
+        url: webImage.src,
         width: 1200,
         height: 630,
         alt: "HackTheTank 2.0 Logo",

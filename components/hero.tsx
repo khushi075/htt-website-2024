@@ -34,14 +34,17 @@ export default function Hero() {
       <div className="h-[calc(100dvh-60px)] w-11/12 mx-auto flex items-center justify-center">
         <img
           src={background.src}
+          alt="background"
           className="absolute top-0 object-cover h-screen w-screen -z-50"
         />
         <img
           src={sharks.src}
+          alt="sharks"
           className="absolute lg:top-20 object-cover lg:h-screen lg:w-screen -z-40 hidden lg:block"
         />
         <img
           src={sharks2.src}
+          alt="sharks2"
           className="absolute top-50 object-cover h-screen w-full -z-40 lg:hidden"
         />
         <div className="flex-col items-center justify-center md:w-10/12 lg:-ml-14 md:flex-row md:flex">
