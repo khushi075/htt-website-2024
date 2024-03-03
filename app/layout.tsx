@@ -7,6 +7,7 @@ import webImage from "@/public/website.png"
 
 import './globals.css';
 
+
 export const metadata = {
   title: 'Hack The Tank 2.0',
   description: "HackTheTank 2.0 is India's only Shark Tank-themed hackathon where student developers collaborate to solve real-world challenges presented by industry leaders. Join us for an unparalleled 30-hour innovation experience!",
@@ -23,6 +24,7 @@ export const metadata = {
         alt: "HackTheTank 2.0 Logo",
       }
     ],
+    keywords: ['hack the tank 2.0', 'hack the tank 2', 'hack the tank'],
     locale: "en_IN",
   },
 }
