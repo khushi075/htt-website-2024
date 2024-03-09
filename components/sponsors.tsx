@@ -1,10 +1,27 @@
 import localFont from "next/font/local";
+import grunerLogo from "@/assets/images/GrunerLogo.png"
+import workSpaceLogo from "@/assets/images/workspaceLogo.png"
+import globalLogo from "@/assets/images/globalLogo.jpg"
 const azonix = localFont({ src: "../assets/fonts/Azonix.otf" });
 
 export default function Sponsors() {
   return (
     <section className=" body-font w-11/12 mx-auto" id="sponsors">
       <div className=" px-5 py-24 mx-auto">
+        <div className="flex flex-col items-center py-4 mb-6">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+            Title Sponsor
+          </h1>
+          <div className="flex flex-wrap -m-2 justify-center">
+            <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
+              <img
+                alt="DEVFOLIO LOGO"
+                className="w-full h-full rounded"
+                src={globalLogo.src}
+              />
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col items-center py-4 mb-6">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             Silver Sponsors
@@ -19,7 +36,7 @@ export default function Sponsors() {
             </div>
           </div>
         </div>
-        <div className="flex flex-col  items-center">
+        <div className="flex flex-col  items-center py-4 mb-6">
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
             Bronze Sponsors
           </h1>
@@ -35,6 +52,34 @@ export default function Sponsors() {
                 alt="ETHINDIA LOGO"
                 src="https://devfolio.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F5bc094c8-987c-4274-938f-8a9d3fad1a04%2F3a99e963-fed1-423a-81b2-8e13661c12ef%2FUntitled.png?table=block&id=b43f6ac2-f22d-4513-814d-a841fc5b6079&spaceId=5bc094c8-987c-4274-938f-8a9d3fad1a04&width=1740&userId=&cache=v2"
               />
+            </div>
+          </div>
+          <div className="flex flex-col items-center py-4 mt-9 ">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              Gifting Sponsors
+            </h1>
+            <div className="flex flex-wrap -m-2 justify-center">
+              <div className="lg:w-1/3 md:w-1/2 w-full -mt-10">
+                <img
+                  alt="GRUNER LOGO"
+                  className="w-full h-full"
+                  src={grunerLogo.src}
+                />
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col items-center py-4 -mt-2">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
+              Powered By
+            </h1>
+            <div className="flex flex-wrap -m-2 justify-center">
+              <div className="lg:w-1/3 md:w-1/2 w-full">
+                <img
+                  alt="GRUNER LOGO"
+                  className="h-full"
+                  src={workSpaceLogo.src}
+                />
+              </div>
             </div>
           </div>
         </div>

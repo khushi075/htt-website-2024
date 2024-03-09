@@ -10,10 +10,10 @@ import './globals.css';
 
 export const metadata = {
   title: 'Hack The Tank 2.0',
-  description: "Hack The Tank 2.0 is India's only Shark Tank-themed hackathon where student developers collaborate to solve real-world challenges presented by industry leaders. Join us for an unparalleled 30-hour innovation experience!",
+  description: "Hack The Tank 2 is the season 2 of India's only Shark Tank-themed hackathon where student developers collaborate to solve real-world challenges presented by industry leaders. Join us for an unparalleled 30-hour innovation experience!",
   openGraph: {
     title: 'Hack The Tank 2.0',
-    description: "Hack The Tank 2.0 is India's only Shark Tank-themed hackathon where student developers collaborate to solve real-world challenges presented by industry leaders. Join us for an unparalleled 30-hour innovation experience!",
+    description: "Hack The Tank 2.0 is the season 2 of India's only Shark Tank-themed hackathon where student developers collaborate to solve real-world challenges presented by industry leaders. Join us for an unparalleled 30-hour innovation experience!",
     url:"https://www.hackthetank.tech",
     siteName: "Hack The Tank 2.0",
     images: [
@@ -24,7 +24,7 @@ export const metadata = {
         alt: "HackTheTank 2.0 Logo",
       }
     ],
-    keywords: ['hack the tank 2.0', 'hack the tank 2', 'hack the tank'],
+    keywords: ['hack the tank 2.0', 'hack the tank 2', 'hack the tank', 'shark tank themed hackathon', 'hackathon India', 'student developers', 'innovation experience'],
     locale: "en_IN",
   },
 }
