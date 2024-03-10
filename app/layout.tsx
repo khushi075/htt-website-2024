@@ -1,8 +1,5 @@
-import type { Metadata } from "next";
-import { Fragment } from 'react';
 import { GeistSans } from 'geist/font/sans';
 import { ThemeProvider } from '@/components/theme-provider';
-import Head from 'next/head';
 import webImage from "@/public/website.png"
 
 import './globals.css';
