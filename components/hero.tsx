@@ -93,13 +93,13 @@ export default function Hero() {
                   data-button-theme="dark"
                   style={{ height: "44px", width: "312px", borderRadius: "8px"}}
                 ></div>
-                <Button
-                  variant="outline"
+                <a
+                  href="https://discord.gg/RAvmqWZ55E"
                   className="bg-[#0044D1] h-[44px] w-[320px] rounded"
                 >
                   <DiscordLogoIcon className="mr-2" />
                   Discord
-                </Button>
+                </a>
               </div>
             </div>
           </div>
