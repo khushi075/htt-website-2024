@@ -30,7 +30,7 @@ export default function Sponsors() {
               <div className="lg:w-1/3 md:w-1/2 w-full">
                 <img
                   alt="GRUNER LOGO"
-                  className="h-[200%] md:-mt-8 -mt-4 w-[200%]"
+                  className="h-[250%] -mt-10 w-[300%]"
                   src={workSpaceLogo.src}
                 />
               </div>
@@ -44,7 +44,7 @@ export default function Sponsors() {
               <div className="lg:w-1/3 md:w-1/2 w-full -mt-10">
                 <img
                   alt="GRUNER LOGO"
-                  className="w-full h-full"
+                  className="w-[40%] md:w-[70%] mx-auto mt-4"
                   src={grunerLogo.src}
                 />
               </div>
