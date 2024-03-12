@@ -22,6 +22,20 @@ export default function Sponsors() {
             </div>
           </div>
         </div>
+          <div className="flex flex-col items-center py-4 -mt-2">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-white">
+              Powered By
+            </h1>
+            <div className="flex flex-wrap -m-2 justify-center">
+              <div className="lg:w-1/3 md:w-1/2 w-full">
+                <img
+                  alt="GRUNER LOGO"
+                  className="h-[200%] md:-mt-8 -mt-4 w-[200%]"
+                  src={workSpaceLogo.src}
+                />
+              </div>
+            </div>
+          </div>
           <div className="flex flex-col items-center py-4 mt-9 ">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
               Gifting Sponsors
@@ -32,20 +46,6 @@ export default function Sponsors() {
                   alt="GRUNER LOGO"
                   className="w-full h-full"
                   src={grunerLogo.src}
-                />
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col items-center py-4 -mt-2">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-white">
-              Powered By
-            </h1>
-            <div className="flex flex-wrap -m-2 justify-center">
-              <div className="lg:w-1/3 md:w-1/2 w-full">
-                <img
-                  alt="GRUNER LOGO"
-                  className="h-full"
-                  src={workSpaceLogo.src}
                 />
               </div>
             </div>
