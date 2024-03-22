@@ -13,6 +13,7 @@ import { AccordionDemo } from "@/components/faq";
 import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
 import Stats from "@/components/stats";
+import Timeline from "@/components/timeline";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         <About />
         <CarouselDemo />
         <Sponsors />
+        <Timeline />
         <Prize />
         <AccordionDemo />
         <TeamSection />
