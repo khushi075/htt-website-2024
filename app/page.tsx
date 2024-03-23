@@ -14,6 +14,7 @@ import { CarouselDemo } from "@/components/memories";
 import Footer from "@/components/footer";
 import Stats from "@/components/stats";
 import Timeline from "@/components/timeline";
+import Timer from "@/components/timer";
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         <CarouselDemo />
         <Sponsors />
         <Timeline />
+        <Timer />
         <Prize />
         <AccordionDemo />
         <TeamSection />
