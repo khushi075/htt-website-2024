@@ -35,7 +35,7 @@ const Timer3 = () => {
   };
 
   const startCountDown = useCallback(() => {
-    const countDownDate = new Date("March 24, 2024 12:00:00").getTime();
+    const countDownDate = new Date("March 24, 2024 12:30:00").getTime();
 
     const intervalId = setInterval(() => {
       getTimeDifference(countDownDate);
