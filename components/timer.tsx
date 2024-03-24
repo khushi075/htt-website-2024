@@ -12,7 +12,7 @@ const Timer3 = () => {
   const getTimeDifference = (countDownTime: number) => {
     const currentTime = new Date().getTime();
     const timeDifference = countDownTime - currentTime;
-    if (timeDifference < 0) {
+    if (timeDifference <= 0) {
       setCountDownTime({
         days: "00",
         hours: "00",
@@ -35,18 +35,10 @@ const Timer3 = () => {
   };
 
   const startCountDown = useCallback(() => {
-    const customDate = new Date();
-    const countDownDate = new Date(
-      customDate.getFullYear(),
-      customDate.getMonth(),
-      customDate.getDate(),
-      customDate.getHours() + 22, // Add 22 hours
-      customDate.getMinutes() + 15, // Add 15 minutes
-      customDate.getSeconds() + 1
-    );
+    const countDownDate = new Date("March 24, 2024 12:00:00").getTime();
 
     const intervalId = setInterval(() => {
-      getTimeDifference(countDownDate.getTime());
+      getTimeDifference(countDownDate);
     }, 1000);
 
     return () => clearInterval(intervalId); // Clear interval on unmount
